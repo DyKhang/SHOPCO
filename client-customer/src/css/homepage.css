@@ -1,0 +1,66 @@
+ul.menu {
+  width: 321px;
+  height: 22px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+  color: black;
+  font-size: 16px;
+  font-family: Satoshi;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+ul.menu :last-child {
+  color: black;
+  font-size: 16px;
+  font-family: Satoshi;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+input.search {
+  width: 577px;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #f0f0f0;
+  border-radius: 62px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  width: 20.27px;
+  height: 20.27px;
+  left: 1.86px;
+  top: 1.86px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+}
+input::placeholder.search {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-family: Satoshi;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.logo a {
+  color: #000 !important;
+  font-family: Integral CF !important;
+  font-size: 32px !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  line-height: normal !important;
+}
